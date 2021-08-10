@@ -1,4 +1,7 @@
-int n1=0;
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *head1, ListNode *head2) {
+    int n1=0;
     int n2=0;
     ListNode*l1=head1;
     ListNode*l2=head2;
@@ -46,3 +49,4 @@ int n1=0;
     
         
     }
+};
